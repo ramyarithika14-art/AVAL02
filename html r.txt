@@ -1,0 +1,77 @@
+<script>
+
+const officialPMUY =
+  "https://www.pmuy.gov.in/";
+
+const myScheme =
+  "https://www.myscheme.gov.in/";
+
+const $ = id =>
+  document.getElementById(id);
+
+
+const copy = {
+
+  ta:{
+
+    eyebrow:"குரல் மூலம் அரசு சேவைகள்",
+
+    title:
+      "அரசுத் திட்டங்களை உங்கள் மொழியில் அணுகுங்கள்.",
+
+    subtitle:
+      "AVAL முதல் முறையாக டிஜிட்டல் சேவையைப் பயன்படுத்தும் ஒருவருக்கு, எளிய குரல் அல்லது உரை மூலம் திட்டத்தைப் புரிந்துகொள்ளவும் அதிகாரப்பூர்வ விண்ணப்பப் பக்கத்தை அடையவும் உதவுகிறது.",
+
+    hint:
+      "உதாரணம்: “எனக்கு சமையல் எரிவாயு வேண்டும்”",
+
+    input:
+      "உங்களுக்கு என்ன உதவி வேண்டும்?",
+
+    start:
+      "மைக்ரோஃபோனை அழுத்தி பேசுங்கள்",
+
+    yes:"ஆம்",
+    no:"இல்லை"
+
+  },
+
+  hi:{
+
+    eyebrow:
+      "आवाज़ से सरकारी सेवाएँ",
+
+    title:
+      "सरकारी योजनाएँ, आपकी भाषा में।",
+
+    hint:
+      "उदाहरण: “मुझे रसोई गैस चाहिए”",
+
+    yes:"हाँ",
+    no:"नहीं"
+
+  },
+
+  en:{
+
+    eyebrow:
+      "VOICE-FIRST GOVERNMENT ACCESS",
+
+    title:
+      "Government services, in your language.",
+
+    hint:
+      "Try: “I need cooking gas”",
+
+    input:
+      "What help do you need?",
+
+    start:
+      "Tap the microphone and speak",
+
+    yes:"Yes",
+    no:"No"
+
+  }
+
+};
